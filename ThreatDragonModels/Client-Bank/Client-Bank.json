@@ -49,11 +49,11 @@
                 "6561e81c-4d5d-41fa-a0fa-03e51d8ee560",
                 "50446ddb-6723-43e1-801c-d7861c00d46f",
                 "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
-                "a2bbb579-3368-4a2f-bde2-1d992803613a",
                 "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
                 "96e28eb8-87ff-4a30-838b-7ebc8249c171",
                 "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
-                "5387da6e-9a98-4377-afe3-10c307a8ca3c"
+                "5387da6e-9a98-4377-afe3-10c307a8ca3c",
+                "dc8d6434-5697-4dc6-ac5f-a386e0a52f07"
               ],
               "containedElements": [
                 "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
@@ -64,7 +64,7 @@
           },
           {
             "position": {
-              "x": 1076,
+              "x": 1086,
               "y": -115
             },
             "size": {
@@ -126,8 +126,8 @@
               "crossingFlows": [
                 "afa03b45-3cd7-4eff-a24d-1e47e155b098",
                 "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
-                "a2bbb579-3368-4a2f-bde2-1d992803613a",
-                "a06fcc97-a953-4266-aff0-e7830ec5e6fd"
+                "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
+                "dc8d6434-5697-4dc6-ac5f-a386e0a52f07"
               ],
               "containedElements": [
                 "bbce6bc4-afaf-411b-82b6-1d2601c050d0"
@@ -527,7 +527,7 @@
           },
           {
             "position": {
-              "x": 659.9999999999999,
+              "x": 649.9999999999999,
               "y": -25
             },
             "size": {
@@ -1630,61 +1630,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Результат автентифікації",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
-              ]
-            },
-            "labels": [
-              "Результат автентифікації"
-            ],
-            "id": "a2bbb579-3368-4a2f-bde2-1d992803613a",
-            "source": {
-              "cell": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
-              "port": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
-            },
-            "target": {
-              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
-              "port": "dd9a23e3-254d-43d9-b5a9-87ed580bc52b"
-            },
-            "vertices": [
-              {
-                "x": 640,
-                "y": -50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Платіжне доручення",
               "description": "",
               "outOfScope": false,
@@ -1895,6 +1840,56 @@
                 "y": 140
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Результат автентифікації",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
+              ]
+            },
+            "labels": [
+              "Результат автентифікації"
+            ],
+            "id": "dc8d6434-5697-4dc6-ac5f-a386e0a52f07",
+            "source": {
+              "cell": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+              "port": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+            },
+            "target": {
+              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+              "port": "dd9a23e3-254d-43d9-b5a9-87ed580bc52b"
+            },
+            "vertices": []
           }
         ],
         "description": "Levitsky_IPZ-23"
