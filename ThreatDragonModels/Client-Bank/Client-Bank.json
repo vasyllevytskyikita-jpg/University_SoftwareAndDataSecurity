@@ -199,6 +199,38 @@
           },
           {
             "position": {
+              "x": 116.25,
+              "y": 330
+            },
+            "size": {
+              "width": 220,
+              "height": 160
+            },
+            "attrs": {
+              "label": {
+                "text": "Пристрій працівника"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "0fba5729-1d6d-4e1b-ac7b-93bf8153d51a",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Пристрій працівника",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6561e81c-4d5d-41fa-a0fa-03e51d8ee560"
+              ],
+              "containedElements": [
+                "66269ef6-2477-4e4b-b1e6-f0e178fb03de"
+              ]
+            },
+            "zIndex": -1
+          },
+          {
+            "position": {
               "x": 170,
               "y": 85
             },
@@ -1171,7 +1203,8 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f"
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "0fba5729-1d6d-4e1b-ac7b-93bf8153d51a"
               ]
             },
             "labels": [
