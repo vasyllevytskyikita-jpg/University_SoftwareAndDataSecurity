@@ -18,7 +18,1552 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 441.9999999999993,
+              "y": -130.9999999999993
+            },
+            "size": {
+              "width": 220,
+              "height": 600
+            },
+            "attrs": {
+              "label": {
+                "text": "Серверна частина банку"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Серверна частина банку",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "b56c2f14-2eba-4024-b755-916669f430a8",
+                "afa03b45-3cd7-4eff-a24d-1e47e155b098",
+                "6561e81c-4d5d-41fa-a0fa-03e51d8ee560",
+                "50446ddb-6723-43e1-801c-d7861c00d46f",
+                "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
+                "a2bbb579-3368-4a2f-bde2-1d992803613a",
+                "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
+                "96e28eb8-87ff-4a30-838b-7ebc8249c171",
+                "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
+                "5387da6e-9a98-4377-afe3-10c307a8ca3c"
+              ],
+              "containedElements": [
+                "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+                "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+                "bc1ba198-f3bb-42e9-ba46-57f525ddad31"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 886,
+              "y": -125
+            },
+            "size": {
+              "width": 210,
+              "height": 600
+            },
+            "attrs": {
+              "label": {
+                "text": "Сховища даних"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "b34bd960-082d-4b00-ba54-bc51e7c68418",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Сховища даних",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "b56c2f14-2eba-4024-b755-916669f430a8",
+                "50446ddb-6723-43e1-801c-d7861c00d46f",
+                "96e28eb8-87ff-4a30-838b-7ebc8249c171",
+                "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
+                "5387da6e-9a98-4377-afe3-10c307a8ca3c"
+              ],
+              "containedElements": [
+                "4c3b6987-dbaa-4501-8400-32386832cf65",
+                "28efe3ef-fa4c-4b53-a5af-577eed01cd3a"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 16.25,
+              "y": 15
+            },
+            "size": {
+              "width": 220,
+              "height": 160
+            },
+            "attrs": {
+              "label": {
+                "text": "Пристрій клієнта"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Пристрій клієнта",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "afa03b45-3cd7-4eff-a24d-1e47e155b098",
+                "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
+                "a2bbb579-3368-4a2f-bde2-1d992803613a",
+                "a06fcc97-a953-4266-aff0-e7830ec5e6fd"
+              ],
+              "containedElements": [
+                "bbce6bc4-afaf-411b-82b6-1d2601c050d0"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 70,
+              "y": 75
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Клієнт Банку"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dd9a23e3-254d-43d9-b5a9-87ed580bc52b"
+                },
+                {
+                  "group": "right",
+                  "id": "920e27df-dfbe-4f4b-8676-a1b62f1e9158"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4026485b-7516-4cca-9a57-8741e6ca23dd"
+                },
+                {
+                  "group": "left",
+                  "id": "256825ac-ac56-4ad3-880c-9d26d3d396c9"
+                }
+              ]
+            },
+            "id": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Клієнт Банку",
+              "description": "Використовує браузер або мобільний застосунок, переглядає рахунки та створює платіжні доручення.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 40,
+              "y": 450
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Працівник Банку"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "dd9a23e3-254d-43d9-b5a9-87ed580bc52b"
+                },
+                {
+                  "group": "right",
+                  "id": "920e27df-dfbe-4f4b-8676-a1b62f1e9158"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4026485b-7516-4cca-9a57-8741e6ca23dd"
+                },
+                {
+                  "group": "left",
+                  "id": "256825ac-ac56-4ad3-880c-9d26d3d396c9"
+                }
+              ]
+            },
+            "id": "66269ef6-2477-4e4b-b1e6-f0e178fb03de",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Працівник Банку",
+              "description": "Контролює платежі та виконує дозволені службові операції.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 519.9999999999999,
+              "y": -35
+            },
+            "size": {
+              "width": 80,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Автентиф.\nта авториз."
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+                },
+                {
+                  "group": "right",
+                  "id": "076e213c-b672-4d5e-a0cb-65629e39201f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "09a60564-67ca-4ca8-b235-f7a6cd488194"
+                },
+                {
+                  "group": "left",
+                  "id": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+                }
+              ]
+            },
+            "id": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Автентиф.\nта авториз.",
+              "description": "Автентифікація та авторизація\nПеревіряє особу користувача та його права доступу",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 509.9999999999999,
+              "y": 320
+            },
+            "size": {
+              "width": 80,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Обробка \nплатіжних \nдоручень"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+                },
+                {
+                  "group": "right",
+                  "id": "076e213c-b672-4d5e-a0cb-65629e39201f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "09a60564-67ca-4ca8-b235-f7a6cd488194"
+                },
+                {
+                  "group": "left",
+                  "id": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+                }
+              ]
+            },
+            "id": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+            "data": {
+              "type": "tm.Process",
+              "name": "Обробка \nплатіжних \nдоручень",
+              "description": "Перевіряє суму, отримувача, права на рахунок і підтвердження платежу",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 4
+          },
+          {
+            "position": {
+              "x": 509.9999999999999,
+              "y": 120
+            },
+            "size": {
+              "width": 80,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Виконання\nбанківських\nоперацій"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+                },
+                {
+                  "group": "right",
+                  "id": "076e213c-b672-4d5e-a0cb-65629e39201f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "09a60564-67ca-4ca8-b235-f7a6cd488194"
+                },
+                {
+                  "group": "left",
+                  "id": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+                }
+              ]
+            },
+            "id": "bc1ba198-f3bb-42e9-ba46-57f525ddad31",
+            "data": {
+              "type": "tm.Process",
+              "name": "Виконання\nбанківських\nоперацій",
+              "description": "Перевіряє доступність коштів, виконує переказ і фіксує результат",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 5
+          },
+          {
+            "position": {
+              "x": 931,
+              "y": -10
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "База даних\nклієнтів і рахунків"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "12c1d22d-5ab6-4e33-9956-c5cd6adf5315"
+                },
+                {
+                  "group": "right",
+                  "id": "be852564-4a42-44da-89cc-9802dac9e1b1"
+                },
+                {
+                  "group": "bottom",
+                  "id": "dd667c2f-3032-44e0-9c97-af0980f6e348"
+                },
+                {
+                  "group": "left",
+                  "id": "c879e889-56fc-41d1-ade8-48db5d097a19"
+                }
+              ]
+            },
+            "id": "4c3b6987-dbaa-4501-8400-32386832cf65",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Store",
+              "name": "База даних\nклієнтів і рахунків",
+              "description": "Облікові записи, реквізити рахунків, залишки та права доступу",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 941,
+              "y": 345
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "База платіжних\nдоручень\nі журнал операцій"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "12c1d22d-5ab6-4e33-9956-c5cd6adf5315"
+                },
+                {
+                  "group": "right",
+                  "id": "be852564-4a42-44da-89cc-9802dac9e1b1"
+                },
+                {
+                  "group": "bottom",
+                  "id": "dd667c2f-3032-44e0-9c97-af0980f6e348"
+                },
+                {
+                  "group": "left",
+                  "id": "c879e889-56fc-41d1-ade8-48db5d097a19"
+                }
+              ]
+            },
+            "id": "28efe3ef-fa4c-4b53-a5af-577eed01cd3a",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Store",
+              "name": "База платіжних\nдоручень\nі журнал операцій",
+              "description": "Параметри платежів, статуси та записи аудиту",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Перевірка\nоблікових даних",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "b34bd960-082d-4b00-ba54-bc51e7c68418"
+              ]
+            },
+            "labels": [
+              "Перевірка\nоблікових даних"
+            ],
+            "id": "b56c2f14-2eba-4024-b755-916669f430a8",
+            "source": {
+              "cell": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+              "port": "076e213c-b672-4d5e-a0cb-65629e39201f"
+            },
+            "target": {
+              "cell": "4c3b6987-dbaa-4501-8400-32386832cf65",
+              "port": "c879e889-56fc-41d1-ade8-48db5d097a19"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Дані для входу",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
+              ]
+            },
+            "labels": [
+              "Дані для входу"
+            ],
+            "id": "afa03b45-3cd7-4eff-a24d-1e47e155b098",
+            "source": {
+              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+              "port": "920e27df-dfbe-4f4b-8676-a1b62f1e9158"
+            },
+            "target": {
+              "cell": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+              "port": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Рішення про\nперевірку платежу",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f"
+              ]
+            },
+            "labels": [
+              "Рішення про\nперевірку платежу"
+            ],
+            "id": "6561e81c-4d5d-41fa-a0fa-03e51d8ee560",
+            "source": {
+              "cell": "66269ef6-2477-4e4b-b1e6-f0e178fb03de",
+              "port": "920e27df-dfbe-4f4b-8676-a1b62f1e9158"
+            },
+            "target": {
+              "cell": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+              "port": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Оновлення залишків\nрахунків",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "b34bd960-082d-4b00-ba54-bc51e7c68418"
+              ]
+            },
+            "labels": [
+              "Оновлення залишків\nрахунків"
+            ],
+            "id": "50446ddb-6723-43e1-801c-d7861c00d46f",
+            "source": {
+              "cell": "bc1ba198-f3bb-42e9-ba46-57f525ddad31",
+              "port": "076e213c-b672-4d5e-a0cb-65629e39201f"
+            },
+            "target": {
+              "cell": "4c3b6987-dbaa-4501-8400-32386832cf65",
+              "port": "c879e889-56fc-41d1-ade8-48db5d097a19"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Підтверджене\nплатіжне доручення",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Підтверджене\nплатіжне доручення"
+            ],
+            "id": "4a274747-f8d3-412e-bc66-ef6db05bdc84",
+            "source": {
+              "cell": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+              "port": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+            },
+            "target": {
+              "cell": "bc1ba198-f3bb-42e9-ba46-57f525ddad31",
+              "port": "09a60564-67ca-4ca8-b235-f7a6cd488194"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Результат переказу",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
+              ]
+            },
+            "labels": [
+              "Результат переказу"
+            ],
+            "id": "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
+            "source": {
+              "cell": "bc1ba198-f3bb-42e9-ba46-57f525ddad31",
+              "port": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+            },
+            "target": {
+              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+              "port": "920e27df-dfbe-4f4b-8676-a1b62f1e9158"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Результат автентифікації",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
+              ]
+            },
+            "labels": [
+              "Результат автентифікації"
+            ],
+            "id": "a2bbb579-3368-4a2f-bde2-1d992803613a",
+            "source": {
+              "cell": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
+              "port": "9a67e570-d0be-419b-9db2-5779e0bb2aa2"
+            },
+            "target": {
+              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+              "port": "dd9a23e3-254d-43d9-b5a9-87ed580bc52b"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": -70
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Платіжне доручення",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
+              ]
+            },
+            "labels": [
+              "Платіжне доручення"
+            ],
+            "id": "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
+            "source": {
+              "cell": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
+              "port": "4026485b-7516-4cca-9a57-8741e6ca23dd"
+            },
+            "target": {
+              "cell": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+              "port": "59767983-85ad-4b28-a187-b1b5b0d4ec76"
+            },
+            "vertices": [
+              {
+                "x": 170,
+                "y": 190
+              },
+              {
+                "x": 290,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Збереження\nплатіжного\nдоручення",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "b34bd960-082d-4b00-ba54-bc51e7c68418"
+              ]
+            },
+            "labels": [
+              "Збереження\nплатіжного\nдоручення"
+            ],
+            "id": "96e28eb8-87ff-4a30-838b-7ebc8249c171",
+            "source": {
+              "cell": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+              "port": "076e213c-b672-4d5e-a0cb-65629e39201f"
+            },
+            "target": {
+              "cell": "28efe3ef-fa4c-4b53-a5af-577eed01cd3a",
+              "port": "c879e889-56fc-41d1-ade8-48db5d097a19"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Запис результату\nоперації",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "b34bd960-082d-4b00-ba54-bc51e7c68418"
+              ]
+            },
+            "labels": [
+              "Запис результату\nоперації"
+            ],
+            "id": "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
+            "source": {
+              "cell": "bc1ba198-f3bb-42e9-ba46-57f525ddad31",
+              "port": "076e213c-b672-4d5e-a0cb-65629e39201f"
+            },
+            "target": {
+              "cell": "28efe3ef-fa4c-4b53-a5af-577eed01cd3a",
+              "port": "12c1d22d-5ab6-4e33-9956-c5cd6adf5315"
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 220
+              },
+              {
+                "x": 880,
+                "y": 260
+              },
+              {
+                "x": 960,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Перевірка рахунку\n та балансу",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
+                "b34bd960-082d-4b00-ba54-bc51e7c68418"
+              ]
+            },
+            "labels": [
+              "Перевірка рахунку\n та балансу"
+            ],
+            "id": "5387da6e-9a98-4377-afe3-10c307a8ca3c",
+            "source": {
+              "cell": "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
+              "port": "076e213c-b672-4d5e-a0cb-65629e39201f"
+            },
+            "target": {
+              "cell": "4c3b6987-dbaa-4501-8400-32386832cf65",
+              "port": "dd667c2f-3032-44e0-9c97-af0980f6e348"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 180
+              },
+              {
+                "x": 930,
+                "y": 130
+              }
+            ]
+          }
+        ],
         "description": "Levitsky_IPZ-23"
       }
     ],
