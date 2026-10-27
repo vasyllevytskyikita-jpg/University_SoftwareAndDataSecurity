@@ -1,11 +1,11 @@
 {
   "version": "2.6.2",
-  "release_version": "",
+  "release_version": "-",
   "released_at": "",
   "summary": {
     "title": "Client-Bank",
     "owner": "Levitsky Vasil",
-    "description": "IPZ-23",
+    "description": "Levitsky Vasil IPZ-23",
     "id": 0
   },
   "detail": {
@@ -1719,7 +1719,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "-",
     "threatTop": 15
   }
 }
