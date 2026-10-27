@@ -20,121 +20,6 @@
         "version": "2.6.2",
         "cells": [
           {
-            "position": {
-              "x": 589.9999999999999,
-              "y": -115
-            },
-            "size": {
-              "width": 220,
-              "height": 600
-            },
-            "attrs": {
-              "label": {
-                "text": "Серверна частина банку"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Серверна частина банку",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "b56c2f14-2eba-4024-b755-916669f430a8",
-                "afa03b45-3cd7-4eff-a24d-1e47e155b098",
-                "6561e81c-4d5d-41fa-a0fa-03e51d8ee560",
-                "50446ddb-6723-43e1-801c-d7861c00d46f",
-                "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
-                "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
-                "96e28eb8-87ff-4a30-838b-7ebc8249c171",
-                "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
-                "5387da6e-9a98-4377-afe3-10c307a8ca3c",
-                "dc8d6434-5697-4dc6-ac5f-a386e0a52f07"
-              ],
-              "containedElements": [
-                "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
-                "54f7ee35-f7c0-4eb6-9f65-76e0db5c2ece",
-                "bc1ba198-f3bb-42e9-ba46-57f525ddad31"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 1086,
-              "y": -115
-            },
-            "size": {
-              "width": 210,
-              "height": 600
-            },
-            "attrs": {
-              "label": {
-                "text": "Сховища даних"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "b34bd960-082d-4b00-ba54-bc51e7c68418",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Сховища даних",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "b56c2f14-2eba-4024-b755-916669f430a8",
-                "50446ddb-6723-43e1-801c-d7861c00d46f",
-                "96e28eb8-87ff-4a30-838b-7ebc8249c171",
-                "864f72ad-ad61-4e0a-b833-94bbbd2b1a83",
-                "5387da6e-9a98-4377-afe3-10c307a8ca3c"
-              ],
-              "containedElements": [
-                "4c3b6987-dbaa-4501-8400-32386832cf65",
-                "28efe3ef-fa4c-4b53-a5af-577eed01cd3a"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 116.25,
-              "y": 25
-            },
-            "size": {
-              "width": 220,
-              "height": 160
-            },
-            "attrs": {
-              "label": {
-                "text": "Пристрій клієнта"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Пристрій клієнта",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "afa03b45-3cd7-4eff-a24d-1e47e155b098",
-                "4b9ce606-e45c-4843-9c5a-8a26bbdaaa21",
-                "a06fcc97-a953-4266-aff0-e7830ec5e6fd",
-                "dc8d6434-5697-4dc6-ac5f-a386e0a52f07"
-              ],
-              "containedElements": [
-                "bbce6bc4-afaf-411b-82b6-1d2601c050d0"
-              ]
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -199,38 +84,6 @@
           },
           {
             "position": {
-              "x": 106.25,
-              "y": 330
-            },
-            "size": {
-              "width": 220,
-              "height": 160
-            },
-            "attrs": {
-              "label": {
-                "text": "Пристрій працівника"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "0fba5729-1d6d-4e1b-ac7b-93bf8153d51a",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Пристрій працівника",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "6561e81c-4d5d-41fa-a0fa-03e51d8ee560"
-              ],
-              "containedElements": [
-                "66269ef6-2477-4e4b-b1e6-f0e178fb03de"
-              ]
-            },
-            "zIndex": -1
-          },
-          {
-            "position": {
               "x": 170,
               "y": 85
             },
@@ -250,6 +103,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -333,7 +187,6 @@
               ]
             },
             "id": "bbce6bc4-afaf-411b-82b6-1d2601c050d0",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Клієнт Банку",
@@ -398,6 +251,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -481,7 +335,6 @@
               ]
             },
             "id": "66269ef6-2477-4e4b-b1e6-f0e178fb03de",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Працівник Банку",
@@ -546,6 +399,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -629,7 +483,6 @@
               ]
             },
             "id": "99ac2c49-9bdc-4046-9ff8-7bffdc08e3b7",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Автентиф.\nта авториз.",
@@ -701,6 +554,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -832,8 +686,7 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -856,6 +709,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -987,8 +841,7 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
-            },
-            "zIndex": 5
+            }
           },
           {
             "position": {
@@ -1016,6 +869,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -1099,7 +953,6 @@
               ]
             },
             "id": "4c3b6987-dbaa-4501-8400-32386832cf65",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "База даних\nклієнтів і рахунків",
@@ -1175,6 +1028,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -1258,7 +1112,6 @@
               ]
             },
             "id": "28efe3ef-fa4c-4b53-a5af-577eed01cd3a",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "База платіжних\nдоручень\nі журнал операцій",
@@ -1339,10 +1192,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "b34bd960-082d-4b00-ba54-bc51e7c68418"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Перевірка\nоблікових даних"
@@ -1389,10 +1239,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Дані для входу"
@@ -1439,10 +1286,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "0fba5729-1d6d-4e1b-ac7b-93bf8153d51a"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Рішення про\nперевірку платежу"
@@ -1489,10 +1333,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "b34bd960-082d-4b00-ba54-bc51e7c68418"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Оновлення залишків\nрахунків"
@@ -1591,10 +1432,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Результат переказу"
@@ -1641,10 +1479,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Платіжне доручення"
@@ -1700,10 +1535,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "b34bd960-082d-4b00-ba54-bc51e7c68418"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Збереження\nплатіжного\nдоручення"
@@ -1750,10 +1582,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "b34bd960-082d-4b00-ba54-bc51e7c68418"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Запис результату\nоперації"
@@ -1813,10 +1642,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "b34bd960-082d-4b00-ba54-bc51e7c68418"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Перевірка рахунку\n та балансу"
@@ -1872,10 +1698,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "59043ae6-72f9-4142-9a0e-444f0d902d5f",
-                "28f9cc7c-c05a-4d6b-805d-83a7d9aec7e0"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Результат автентифікації"
